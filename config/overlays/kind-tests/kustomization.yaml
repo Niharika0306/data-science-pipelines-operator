@@ -9,5 +9,5 @@ patchesStrategicMerge:
   - user_patch.yaml
 images:
   - name: controller
-    newName: quay.io/opendatahub/data-science-pipelines-operator
-    newTag: main
+    newName: quay.io/niharika_gurram/data-science-pipelines-operator
+    newTag: latest
