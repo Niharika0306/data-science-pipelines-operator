@@ -42,6 +42,9 @@ const (
 	CustomDSPTrustedCAConfigMapNamePrefix = "dsp-trusted-ca"
 	CustomDSPTrustedCAConfigMapKey        = "dsp-ca.crt"
 
+	OpenshiftServiceCAConfigMapName = "openshift-service-ca.crt"
+	OpenshiftServiceCAConfigMapKey  = "service-ca.crt"
+
 	DefaultSystemSSLCertFile     = "SSL_CERT_FILE"
 	DefaultSystemSSLCertFilePath = "/etc/pki/tls/certs/ca-bundle.crt" // Fedora/RHEL 6
 
@@ -56,6 +59,8 @@ const (
 	DefaultDBSecretNamePrefix = "ds-pipeline-db-"
 	DefaultDBSecretKey        = "password"
 	GeneratedDBPasswordLength = 12
+
+	DefaultSignedUrlExpiryTimeSeconds = 15
 
 	MariaDBName        = "mlpipeline"
 	MariaDBHostPrefix  = "mariadb"
